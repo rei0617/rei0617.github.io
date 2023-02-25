@@ -1,5 +1,17 @@
+
 body {
-    background-color: maroon;
+    background-image: url(hearts.jpg);
+    background-repeat: repeat;
+}
+
+#bodydiv {
+    background-color:pink;
+    width: 80vw;
+    height: 96vh;
+    padding-top: 2vh;
+    padding-bottom: 2vw;
+    border: 15px solid palevioletred;
+    margin: auto;
 }
 
 .bodies {
@@ -8,11 +20,23 @@ body {
     border: 2px solid black;
     border-radius: 15px;
     width: 25%; 
-    padding-left: 1%;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
+    margin-top: 1%;
 }
 
-#clock {
-    align-self: center;
+#mail {
+    width: 200px;
+    height: auto;
+    padding-top: 2.5%;
+    float: left;
+    margin-left: 5%;
+}
+
+#us {
+    width: 250px;
+    height: auto;
+    padding-top: 2.75%;
+    float: right; 
+    margin-right: 5%;
 }
