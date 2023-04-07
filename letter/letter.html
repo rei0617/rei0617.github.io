@@ -5,8 +5,124 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Secret Letter!!</title>
+    <style>
+        @font-face {
+            font-family: myFirstFont;
+            src: url("Meifont-Regular.otf");
+        }
+        body {
+            font-family: myFirstFont;
+            font-size: x-large;
+            background-color: #555;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        /* generic styling for the quote */
+    #text::before {
+        content: "\"";
+    }
+    #text::after {
+        content: "\"";
+    }
+    #title::after {
+        content: " said:";
+        font-size: 20px;
+    }
+
+    /* Styling specific to an index card */
+    .card{
+        font-family: myFirstFont;
+        background-color: white;
+        background: repeating-linear-gradient(white, white 25px, #9198e5 26px, #9198e5 27px);
+        background-position-y: 34px;
+        height: 1550px;
+        width: 500px;
+        padding: 0;
+        margin-top: 50px;
+        margin-right: 15px;
+    }
+    .card header {
+        background: linear-gradient(white, white 33px, pink 35px, pink 36px);
+        height: 36px;
+    }
+    .card-title {
+        position: relative;
+        left: 10px;
+        top: 8px;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .card-text {
+        position: relative;
+        top: 30px;
+        font-size: 18px;
+        margin: 0 20px;
+        line-height: 27px;
+    }
+
+    /* Styling specific to a sheet of lined paper */
+    .sheet{
+        font-family: myFirstFont;
+        background-color: white;
+        background: repeating-linear-gradient(white, white 25px, #9198e5 26px, #9198e5 27px);
+        background-position-y: 49px;
+        height: 1550px;
+        width: 450px;
+        padding: 0;
+        margin-top: 50px;
+        margin-left: 15px;
+    }
+    .sheet header {
+        background-color: white;
+        background: linear-gradient(white, white 48px, #9198e5 49px, #9198e5 50px);
+        height: 50px;
+    }
+    .sheet-title {
+        position: relative;
+        top: 20px;
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 10px;
+    }
+    .sheet-text {
+        position: relative;
+        top: 33px;
+        font-size: 22px;
+        width: 480px;
+        margin: 0 55px;
+        line-height: 27px;
+    }
+    .margin {
+        width: 49px;
+        height: 100%;
+    }
+    .l-margin {
+        float: left;
+        border-right: 2px solid pink;
+    }
+    .r-margin {
+        float: right;
+        border-left: 1px solid pink;
+    }
+    </style>
 </head>
 <body>
-    
+    <div class="card">
+        <header>
+         <span class="card-title">
+          Letter for my Love!
+         </span>
+        </header>
+        <p class="card-text">
+        Hello my cutie!! Isn't this so cool that is the magic of computer coding...
+        I cannot give you smiley faces or hearts without paying money so I hope this is okay!
+        I love you so much my baby this font I realize is a little hard to read so I will stick to using it here.
+        Anyways baby I love you so so much here is my append to the paper letter hehe. Ugh I can't get over how cool this is
+        There is a very large concern that the entire website is gonna look strange on your computer. But it shows up fine whenever
+        I test it so you should theoretically be good... Okay a lot of that was filler I am realzing I will just have to make this
+        letter one really long sheet... anways I love you so much
+
 </body>
 </html>
