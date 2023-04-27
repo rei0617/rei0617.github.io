@@ -55,3 +55,10 @@ body {
     float: left;
     margin-left: 5%;
 }
+#music {
+    width: 250px;
+    height: auto;
+    float: right; 
+    margin-right: 4%;
+    margin-bottom: 10%;
+}
